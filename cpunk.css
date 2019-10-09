@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.cover{
+    object-fit: cover;
+    height: 20vh;
+    width: 100%;
+}
+
+.cover-wrapper{
+    position: relative;
+}
+
+.mood{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.top-row{
+	height: 150px;
+	width: 50%;
+	object-fit: cover;
+}
+
+.bottom-row{
+	height: 125px;
+	width: 33.3333333%;
+	object-fit: cover;
+}
+
+.img-wrapper{
+	font-size: 0;
+}
